@@ -88,16 +88,7 @@ portfolio-website/
 
 There is no backend, so the form only validates the input and shows a success message (the data is printed in the browser console). It can be connected later with a service like Formspree or EmailJS.
 
-## Screenshots
 
-| Desktop | Mobile |
-|---------|--------|
-| ![Home desktop](screenshots/01-home-desktop.png) | ![Home mobile](screenshots/09-mobile-home.png) |
-| ![Projects from GitHub](screenshots/04b-projects-from-github.png) | ![Mobile projects](screenshots/12-mobile-projects.png) |
-
-- `04-projects-desktop.png` shows the sample projects that appear while the GitHub account has no public repos.
-- More screenshots (about, skills, contact, form errors, mobile menu, tablet, full page) are in the `screenshots/` folder.
-- The "Projects from GitHub" screenshots were taken with a simulated GitHub response because the three sample repos were not uploaded yet.
 
 ## What I learned
 
