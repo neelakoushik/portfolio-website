@@ -63,12 +63,9 @@ const HIDE_REPOS = ["neelakoushik", "portfolio-website"];
 ```
 portfolio-website/
 ├── index.html          # all the page content
-├── css/
-│   └── style.css       # layout, colours, responsive rules
-├── js/
-│   └── script.js       # mobile menu, active nav link, GitHub projects, form validation
-├── assets/
-│   ├── profile.svg     # placeholder profile picture
+├──  style.css       # layout, colours, responsive rules
+├──  script.js       # mobile menu, active nav link, GitHub projects, form validation
+├──  profile.svg     # placeholder profile picture
 │   └── favicon.svg     # browser tab icon
 ├── screenshots/        # screenshots for submission
 └── README.md
