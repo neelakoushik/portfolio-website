@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Neela Reddy - B.Tech CSE graduate (2025) from VBIT, Hyderabad.">
+  <title>Neela Reddy | Portfolio</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ HEADER / NAVIGATION ============ -->
+  <header class="site-header" id="top">
+    <div class="container nav-bar">
+      <a href="#home" class="logo">neela<span>.dev</span></a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HOME ============ -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="hello">Hi, I'm</p>
+          <h1>Neela Reddy</h1>
+          <p class="role">Fresh graduate in Computer Science &amp; Engineering, looking for a software developer role.</p>
+          <p class="hero-sub">
+            I finished my B.Tech at VBIT in 2025. I like building small web apps and
+            learning how things work under the hood, from the browser to the database.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">See my projects</a>
+            <a href="#contact" class="btn btn-outline">Get in touch</a>
+          </div>
+        </div>
+
+        <!-- small "code card" on the right side of the hero -->
+        <div class="code-card" aria-hidden="true">
+          <div class="code-top">
+            <i></i><i></i><i></i>
+            <span>neela.js</span>
+          </div>
+<pre><code><span class="c-key">const</span> neela = {
+  <span class="c-prop">degree</span>: <span class="c-str">"B.Tech CSE"</span>,
+  <span class="c-prop">college</span>: <span class="c-str">"VBIT, Hyderabad"</span>,
+  <span class="c-prop">passedOut</span>: <span class="c-num">2025</span>,
+  <span class="c-prop">cgpa</span>: <span class="c-num">8.2</span>,
+  <span class="c-prop">loves</span>: [<span class="c-str">"Web"</span>, <span class="c-str">"Python"</span>, <span class="c-str">"DSA"</span>],
+  <span class="c-prop">openToWork</span>: <span class="c-key">true</span>
+};</code></pre>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title">About me</h2>
+
+        <div class="about-grid">
+          <img src="assets/profile.svg" alt="Profile picture of Neela Reddy" class="profile-pic" width="240" height="240">
+
+          <div class="about-text">
+            <p>
+              I'm Neela, a computer science graduate from Vignana Bharathi Institute of
+              Technology (VBIT), Hyderabad. I picked CSE because I enjoyed the first
+              programming lab in my first year, and I've been writing code ever since.
+            </p>
+            <p>
+              During college I built a few projects with my friends, took part in two
+              hackathons, and helped organise the department's coding club sessions in
+              my third year. I'm happiest when I'm turning a rough idea into
+              something that actually runs.
+            </p>
+            <p>
+              Right now I'm practising problem solving on LeetCode and learning React
+              properly. I'd love to join a team where I can learn from experienced
+              developers and contribute from day one.
+            </p>
+
+            <h3>Education</h3>
+            <ul class="edu-list">
+              <li>
+                <strong>B.Tech, Computer Science &amp; Engineering</strong>
+                <span>VBIT, Hyderabad &middot; 2021 - 2025 &middot; CGPA 8.2</span>
+              </li>
+              <li>
+                <strong>Intermediate (MPC)</strong>
+                <span>Sri Chaitanya Junior College, Hyderabad &middot; 2019 - 2021 &middot; 94%</span>
+              </li>
+              <li>
+                <strong>SSC</strong>
+                <span>Green Valley High School, Hyderabad &middot; 2019 &middot; 9.5 GPA</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section-tint" id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <p class="section-intro">Things I've used in college projects and internships. The last group is what I'm still learning.</p>
+
+        <div class="skills-grid">
+          <div class="skill-box">
+            <h3>Languages</h3>
+            <ul class="chips">
+              <li>Python</li>
+              <li>Java</li>
+              <li>C</li>
+              <li>JavaScript</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+
+          <div class="skill-box">
+            <h3>Web development</h3>
+            <ul class="chips">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript (ES6)</li>
+              <li>Bootstrap</li>
+              <li>Node.js</li>
+              <li>Flask</li>
+            </ul>
+          </div>
+
+          <div class="skill-box">
+            <h3>Databases &amp; tools</h3>
+            <ul class="chips">
+              <li>MySQL</li>
+              <li>MongoDB</li>
+              <li>Git &amp; GitHub</li>
+              <li>VS Code</li>
+              <li>Postman</li>
+            </ul>
+          </div>
+
+          <div class="skill-box">
+            <h3>Computer science basics</h3>
+            <ul class="chips">
+              <li>Data Structures</li>
+              <li>Algorithms</li>
+              <li>OOP</li>
+              <li>DBMS</li>
+              <li>Operating Systems</li>
+              <li>Computer Networks</li>
+            </ul>
+          </div>
+
+          <div class="skill-box skill-box-learning">
+            <h3>Currently learning</h3>
+            <ul class="chips">
+              <li>React</li>
+              <li>Express.js</li>
+              <li>Docker basics</li>
+              <li>Machine Learning</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-intro">
+          These come straight from my GitHub account, so new repositories show up here automatically.
+        </p>
+
+        <!-- filled in by js/script.js (loads repos from the GitHub API) -->
+        <div class="projects-grid" id="projectsGrid" aria-live="polite">
+          <p class="projects-status">Loading projects from GitHub...</p>
+        </div>
+        <noscript><p class="projects-status">Turn on JavaScript to see my projects, or visit my GitHub profile below.</p></noscript>
+
+        <p class="projects-note" id="projectsNote"></p>
+        <p class="projects-more">
+          <a href="https://github.com/neelakoushik?tab=repositories" target="_blank" rel="noopener">See all repositories on GitHub</a>
+        </p>
+      </div>
+    </section>
+
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section-tint" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-intro">Have an opportunity or just want to say hi? Send me a message and I'll reply within a couple of days.</p>
+
+        <div class="contact-grid">
+
+          <div class="contact-info">
+            <p><strong>Email</strong><br><a href="mailto:neela.reddy.dummy@example.com">neela.reddy.dummy@example.com</a></p>
+            <p><strong>Phone</strong><br>+91 98765 43210</p>
+            <p><strong>Location</strong><br>Hyderabad, Telangana, India</p>
+            <p><strong>Find me on</strong><br>
+              <a href="https://github.com/neelakoushik" target="_blank" rel="noopener">GitHub</a> &middot;
+              <a href="https://www.linkedin.com/in/neela-reddy-dummy" target="_blank" rel="noopener">LinkedIn</a>
+            </p>
+          </div>
+
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <label for="name">Your name</label>
+              <input type="text" id="name" name="name" placeholder="e.g. Ravi Kumar" autocomplete="name">
+              <small class="error" id="nameError"></small>
+            </div>
+
+            <div class="form-row">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email">
+              <small class="error" id="emailError"></small>
+            </div>
+
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Write your message here..."></textarea>
+              <small class="error" id="messageError"></small>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send message</button>
+            <p class="form-success" id="formSuccess" role="status"></p>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year">2025</span> Neela Reddy. Built with HTML, CSS and JavaScript.</p>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
