@@ -696,6 +696,23 @@ ul {
     scroll-behavior: auto;
   }
 
+   /* Contact email and phone visibility */
+.contact-info p {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    color: #1c2733;
+}
+
+.contact-info a {
+    display: inline-block;
+    visibility: visible;
+    opacity: 1;
+    color: #2a5bd7 !important;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
   * {
     transition: none !important;
   }
